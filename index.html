@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website using Aos library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="">
+              <img src="../img/icons8-binoculars.svg" alt="img" />
+            </a>
+          </div>
+
+          <div class="menu-icons open" id="open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <ul class="nav-list" id="nav-list">
+            <div class="menu-icons close" id="close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+            <li class="nav-item">
+              <a href="#" class="nav-link highlight">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Booking</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="main-message">
+            <h3>The great outdoor</h3>
+            <h1>Adventure</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Blanditiis impedit cupiditate, accusamus fugit officia facere
+              tenetur, non consectetur rem, aliquam est nulla quisquam mollitia
+              harum dolores reprehenderit assumenda voluptates earum.
+            </p>
+            <div class="cta">
+              <a href="#" class="btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-outdoors">
+        <div class="container">
+          <div class="title-heading">
+            <h3>Experience</h3>
+            <h1>The thrilling outdoors</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quasi
+              laborum inventore eos ipsum ratione nostrum, velit, optio quidem
+              nisi, et aliquid doloribus repudiandae.
+            </p>
+          </div>
+
+          <div class="activities-grid">
+            <!-- grid item 1 -->
+            <div
+              class="activities-grid-item star-gazing"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+              data-aos-duration="1000"
+            >
+              <i class="fa-solid fa-star"></i>
+              <h1>Star Gazing</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                similique, perferendis eaque enim ratione quam beatae architecto
+                possimus quisquam ipsa sequi tempore odit reprehenderit itaque?
+                Vitae, fuga! Unde, reprehenderit veritatis.
+              </p>
+            </div>
+            <!-- grid item 2 -->
+            <div
+              class="activities-grid-item hiking"
+              data-aos="zoom-in"
+              data-aos-delay="500"
+              data-aos-duration="1000"
+            >
+              <i class="fa-solid fa-compass"></i>
+              <h1>Hiking</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                similique, perferendis eaque enim ratione quam beatae architecto
+                possimus quisquam ipsa sequi tempore odit reprehenderit itaque?
+                Vitae, fuga! Unde, reprehenderit veritatis.
+              </p>
+            </div>
+            <!-- grid item 3 -->
+            <div
+              class="activities-grid-item camping"
+              data-aos="zoom-in"
+              data-aos-delay="800"
+              data-aos-duration="1000"
+            >
+              <i class="fa-solid fa-fire"></i>
+              <h1>Camping</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                similique, perferendis eaque enim ratione quam beatae architecto
+                possimus quisquam ipsa sequi tempore odit reprehenderit itaque?
+                Vitae, fuga! Unde, reprehenderit veritatis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonial">
+            <div class="testimonial-text-box">
+              <p>
+                This trip was awesome cant wait for the next one im going to
+                tell my friends all about it.
+              </p>
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <div class="testimonial-customer">
+              <img
+                src="../img/portfolio2.jpg"
+                alt="me"
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+              />
+              <h1>Mana-Boy</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="begin-adventure">
+        <div class="container">
+          <div class="title-heading">
+            <h3>Let the</h3>
+            <h1>Adventure begin</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quasi
+              laborum inventore eos ipsum ratione nostrum, velit, optio quidem
+              nisi, et aliquid doloribus repudiandae.
+            </p>
+          </div>
+          <div class="adventure-grid">
+            <!-- aventure gird item 1 -->
+            <div class="adventure-grid item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita debitis, dolorem consequatur omnis voluptatum aliquam
+                possimus ea ab iste aspernatur repellendus odio! Repellat error
+                quaerat iste, minus cum sit quo.
+              </p>
+            </div>
+            <!-- aventure gird item 2 -->
+            <div class="adventure-grid item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita debitis, dolorem consequatur omnis voluptatum aliquam
+                possimus ea ab iste aspernatur repellendus odio! Repellat error
+                quaerat iste, minus cum sit quo.
+              </p>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="btn"
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            data-aos-duration="1000"
+            >Book your adventure</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2022 Outdoorsie . All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
